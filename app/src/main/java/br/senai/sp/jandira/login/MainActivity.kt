@@ -88,8 +88,8 @@ fun LoginScreen() {
             ){
                 Column (
                     modifier = Modifier
-                        .padding(horizontal = 24.dp)
-                        .padding(24.dp)
+                        .padding(horizontal = 20.dp)
+                        .padding(20.dp)
                 ){
                     Text(text = "E-mail",
                         color = Color.White)
@@ -97,7 +97,7 @@ fun LoginScreen() {
                         value = "",
                         onValueChange = {},
                         modifier = Modifier
-                            .padding(bottom = 32.dp, top = 8.dp)
+                            .padding(bottom = 32.dp, top = 9.dp)
                             .fillMaxWidth()
 
                     )
